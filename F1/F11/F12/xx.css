@@ -1,0 +1,25 @@
+.a{
+    bottom:0;
+    position: fixed;
+    font-style: italic;
+    font-weight: 1000;
+    text-decoration: line-through;
+    border : dotted;
+    border-width : 3px;
+    border-color: aqua;
+    border-radius: 180px;
+    color: black;
+    background-color: red;
+    cursor: crosshair;
+    font-size: 100px;
+    height: 120px;
+    background-size:contain;
+    margin: 25px;
+    padding:20px;
+}
+ul{
+    float: left;
+}
+li{
+    display: inline;
+}

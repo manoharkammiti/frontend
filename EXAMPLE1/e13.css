@@ -1,0 +1,9 @@
+.a{
+    position: sticky;
+    height:50px;
+    width : 50px;
+    background-color: blue;
+    color: white;
+    text-align: center;
+    align-content:center;
+}

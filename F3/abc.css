@@ -1,0 +1,7 @@
+.a{
+    display : flex;
+    flex : row wrap;
+}
+.a div{
+    flex:initial;
+}

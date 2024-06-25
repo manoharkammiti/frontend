@@ -1,0 +1,36 @@
+.a{
+    position: absolute;
+    background-color: blue;
+    top:0;
+    left:0;
+    height:100px;
+    width:100px;
+    color:white;
+    text-align: center;
+    align-content: center;
+    z-index: index 3;;
+}
+.b{
+    position: absolute;
+    top:30;
+    left:30;
+    background-color: brown;
+    height:100px;
+    width:100px;
+    color:white;
+    text-align: center;
+    align-content: center;
+    z-index:2;
+}
+.c{
+    position: absolute;
+    top:60;
+    left:60;
+    background-color:black;
+    height:100px;
+    width:100px;
+    color:white;
+    text-align: center;
+    align-content: center;
+    z-index:1;
+}

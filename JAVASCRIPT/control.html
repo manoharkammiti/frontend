@@ -1,0 +1,149 @@
+<!doctype html>
+<html>
+    <head>
+        <title>
+            Control / Lopping statements
+        </title>
+    </head>
+    <body>
+        <h1>Looping Statements</h1>
+        <h1 id = "s1"></h1>
+        <script>
+            //While(1)
+            /*
+            var x = 5;
+            while (x>=1){
+                console.log(x);
+                x--;
+            }
+            */
+            //while(2)
+            /*
+            var x = 5;
+            while (x>=1){
+                document.getElementById("s1").innerHTML +=  x + "<br>";
+                x--
+            }
+            */
+            //do while(1)
+            /*
+            var x = 10;
+            do{
+                console.log(x);
+                x--
+            }
+            while(x>=1);
+            */
+            //do while(2)
+            /*
+            var x = 10;
+            do{
+                document.getElementById("s1").innerHTML += x + "<br>";
+                x--;
+            }
+            while (x >= 1);
+            */  
+            //for Loop (1)
+            /*
+            for (var i=1;i<=5;i++){
+                console.log(i)
+            }
+            */ 
+            //for loop(2)
+            /*
+            for (var i=1;i<=5;i++){
+                document.getElementById("s1").innerHTML += i + "<Br>";
+            }
+            */ 
+            // for - in (1)
+            /*
+            var x = {
+                name : "sai",
+                age : 100,
+                gender : "Male",
+                height : 5.4
+            }
+            for (var i in x){
+                console.log(i + " : " + x[i]);
+            }
+            */ 
+            //for - in (2)
+            /*
+            var x = {
+                name : "sai",
+                age : 100,
+                gender : "Male",
+                height : 5.4
+            }
+            for (var i in x){
+                document.getElementById("s1").innerHTML += i + " : " + x[i] + "<br>";
+            }
+            */ 
+            //for - of (1)
+            /*
+            var x = [1,2,3,4,5,6,7,8,9,10];
+            for (var i of x){
+                if (i%2==0){
+                    console.log(i);
+                }
+            }
+            */ 
+            //for - of (2)
+            /*
+            var x = [1,2,3,4,5,6,7,8,9,10];
+            for (var i of x){
+                if (i%2==0){
+                    document.getElementById("s1").innerHTML += i + "<br>";
+                }
+            }
+            */
+            //Example (Child(1-15)/young(15-25)/Middle(25-50)/Old(50-100)
+            /*
+            var x = {
+                name : "sai",
+                age : 30,
+                gender : "Male"
+            };
+            var specify;
+            var age1 = x.age;
+            if (age1 >= 1 && age1 <=15){
+                specify = "Child aged";
+            }
+            else if (age1 <= 25){
+                specify = "Young aged";
+            }
+            else if (age1 <= 50){
+                specify = "Middle aged";
+            }
+            else{
+                specify = "Old aged";
+            }
+            if (x.gender == "Male"){
+                alert(x.name + " is " + specify + " Boy ");
+            }
+            for (var i in x){
+                document.getElementById("s1").innerHTML += i + " : " + x[i] + "<br>";
+            }
+            */
+
+            //JUMPING - STATEMENTS 
+
+            //BREAK
+            /*
+            for (var i=0;i<=5;i++){
+                if (i == 3){
+                    break;
+                }
+                console.log(i);
+            }
+            */
+            //CONTINUE
+            for (var i=0;i<=5;i++){
+                if (i==3){
+                    continue;
+                }
+                console.log("My iteration is " + i);
+            }
+        </script>
+    </body>
+</html>

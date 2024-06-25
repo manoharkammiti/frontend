@@ -1,0 +1,9 @@
+.a{
+    display:inline-grid;
+    grid-template-columns: 300px 300px;
+    grid-template-rows: 300px 300px 170px;
+}
+/*.b{
+    height: 100px;
+    width: 100px;
+}*/

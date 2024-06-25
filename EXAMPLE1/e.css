@@ -1,0 +1,19 @@
+.hi{
+    font-style: italic;
+    font-weight: 1000;
+    font-size : 100px;
+    text-decoration: line-through;
+    border : dotted;
+    border-width:5px;
+    border-color:brown;
+    border-radius:20px;
+    color:red;
+    background-color: black;
+    cursor: crosshair;
+    height : 500px;
+    width: 500px;
+    background-image: url("https://st2.depositphotos.com/1141099/6198/i/450/depositphotos_61983329-stock-photo-historic-charminar.jpg");
+    background-size: cover;
+    margin:500px;
+    padding:50px;
+}

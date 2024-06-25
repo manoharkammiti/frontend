@@ -1,0 +1,33 @@
+.a{
+    position: absolute;
+    background-color: blue;
+    height:100px;
+    width: 100px;
+    text-align: center;
+    align-content: center;
+    top:0px;
+    left:0px;
+    z-index:4;
+}
+.b{
+    position: absolute;
+    background-color: red;
+    height: 100px;
+    width: 100px;
+    text-align: center;
+    align-content: center;
+    top:50px;
+    left:50px;
+    z-index: 3;
+}
+.c{
+    position: absolute;
+    background-color: yellowgreen;
+    height: 100px;
+    width: 100px;
+    text-align: center;
+    align-content: center;
+    top:100px;
+    left:100px;
+    z-index:2;
+}

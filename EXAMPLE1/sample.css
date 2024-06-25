@@ -1,0 +1,31 @@
+.div1{
+    position: absolute;
+    background-color:aquamarine;
+    border-color: red;
+    height:3cm;
+    width: 30%;
+    left:0px;
+    top:0px;
+}
+.div2{
+    position: absolute;
+    background-color:brown;
+    border-color: black;
+    height:3cm;
+    width: 30%;
+    left:100px;
+    top:100px;
+    z-index:1;
+}
+.div3{
+    position: absolute;
+    background-color:rgb(181, 31, 144);
+    border-color: black;
+    height:3cm;
+    width: 30%;
+    left:200px;
+    top:200px; 
+}
+
+
+

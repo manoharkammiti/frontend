@@ -1,0 +1,66 @@
+.c1{
+	color: blue;
+	text-align: center;
+	font-size: 150%;
+	background-color: lightgray;
+}
+.c2{
+	color: blue;
+	text-align: center;
+	font-size: 100%;
+}
+.c3{
+	color:blue;
+	text-align: center;
+	font-size: 150%;
+	background-color: lightgray;
+}
+.c4{
+	text-align: left;
+	font-size: 20px;
+	background-color: lightyellow;
+}
+.c5{
+	
+	background-color: lightyellow;
+}
+.c6{
+	color: blue;
+	background-color: pink;
+}
+.c7{
+	font-size: 20px;
+	background-color: lightyellow;
+}
+.c8{
+	background-color: lightblue;
+	color: red;
+}
+.c9{
+	background-color: pink;
+	color: blue;
+}
+.c10{
+	background-color:lightgray ;
+	font-size: 20px;
+}
+.c11{
+	text-align: center;
+}
+
+div.c1:hover{
+    background-color: aqua;
+}
+
+a.c11:hover{
+    font-size: 120%;
+}
+
+marquee:hover{
+    background-color: rgb(187, 84, 84);
+}
+
+h3.c8:hover{
+    color:blue;
+}
+

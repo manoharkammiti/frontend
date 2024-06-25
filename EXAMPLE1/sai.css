@@ -1,0 +1,19 @@
+p {
+    color:brown;
+    text-align:center;
+    font-size:50%;
+    font-style: italic;
+}
+#sai {
+    color:blueviolet;
+    text-align:center
+}
+a:link{
+    color:red;
+}
+a:visited{
+    color:blue;
+}
+a:hover{
+    color:rgb(21, 136, 15);
+}

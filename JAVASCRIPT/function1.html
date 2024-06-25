@@ -1,0 +1,78 @@
+<!doctype html>
+<html>
+    <head>
+        <title> function Declaration </title>
+    </head>
+    <body>
+        <button onclick="hello()">Click me</button>
+        <h1 id="boy"></h1>
+        <script>
+            //function Declaration
+            /*
+            function hello(){
+                document.getElementById("boy").innerHTML = "Hello World";
+              console.log("Hello World");  
+            }
+            */
+            //Function Expresssion
+            /*
+            var hello = function(){
+                document.getElementById("boy").innerHTML = "Hello World";
+                console.log("Hello World");  
+            }
+            */
+            //Arrow function
+            /*
+            var hello = ()=>{
+                document.getElementById("boy").innerHTML = "Hello World";
+                console.log("Hello World"); 
+            }
+            */
+            //IIFE
+            /*
+            (function(){
+                document.getElementById("boy").innerHTML = "Hello World";
+                console.log("Hello World");
+            })();
+            var hello = ()=>{
+                document.getElementById("boy").innerHTML = "Button clicked";
+            }
+            */
+            //Named Function Expresssion
+            /*
+            var hello = function hello(){
+                document.getElementById("boy").innerHTML = "Hello World";
+                console.log("Hello World");
+            }
+            */
+            //WP - WR 
+            /*
+            function caluculate(a,b){
+                return a+b;
+            }
+            function hello(){
+                document.getElementById("boy").innerHTML = caluculate(1,2);
+            }
+            */ 
+            //WOP - WR 
+            /*
+            function caluculate(){
+                return "I called caluculate function";
+            }
+            function hello(){
+                document.getElementById("boy").innerHTML = caluculate();
+            }
+            */ 
+            //WP - WOR
+            /*
+            function hello(a,b){
+                document.write(a+b);
+            }
+            */
+            //WOP - WOR 
+            // function hello(){
+            //     document.write("Hello world");
+            // }
+        </script>
+    </body>
+</html>

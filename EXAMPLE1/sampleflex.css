@@ -1,0 +1,62 @@
+/* Reset default styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Top navigation */
+nav {
+    height: 50px;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: sticky;
+    top: 0;
+    background-color: #fff; /* Customize as needed */
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Optional shadow */
+}
+
+/* Other styles for nav_left, nav_center, and nav_right */
+
+/* Poster section */
+.poster_container {
+    height: 100%;
+    width: 100%;
+    margin-top: -50px;
+    position: sticky;
+    top: 0;
+}
+
+/* Other styles for poster image */
+
+/* Main content container */
+.main_container {
+    height: 700px;
+    width: 100%;
+    position: sticky;
+    top: 60px;
+    background: white;
+    border-radius: 15px;
+    z-index: 1234;
+    border-top: 1px solid gray;
+    /* Other styles for main content */
+}
+
+/* QR code section */
+#QRCode {
+    height: 50px;
+    width: 100%;
+    position: fixed;
+    bottom: -100px;
+    z-index: 12345;
+    display: flex;
+    justify-content: center;
+    transition: 0.2s ease-in;
+}
+
+/* Other styles for QRCodeBox and QR code image */
+
+/* Add JavaScript to show/hide QR code button on scroll (optional) */
+/* JavaScript code goes here */

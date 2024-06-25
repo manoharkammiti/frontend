@@ -1,0 +1,19 @@
+<html>
+    <body>
+        <form name="f1">
+            <input type="text" name="firstname">
+            <input type="text" name="lastname">
+            <button onclick="hello()">Click me</button>
+        </form>
+        <script>
+            function hello(){
+                var x = document.forms['f1']['firstname'];
+                var y = x.value;
+                console.log(y);
+                var m = document.forms['f1']['lastname'];
+                var n = m.value;
+                console.log(n);
+            }
+        </script>
+    </body>
+</html>
